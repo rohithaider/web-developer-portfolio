@@ -15,8 +15,68 @@
 
 .nav{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
 }
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color:#474747
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: transparent;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight:700;
+
+}
+.banner-name{
+    font-size: 70px;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-profile-pic{
+    width: 540px;
+}
+
+.bannner-container{
+    max-width: 545px;
+    
+}
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position: top left, bottom right;
+    overflow: auto;
+    
+    
+}
+#btn-download{
+    margin-right: 30px;
 }

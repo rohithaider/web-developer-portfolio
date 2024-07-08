@@ -82,10 +82,46 @@ nav li a{
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat:no-repeat;
     background-position: top left, bottom right;
-    overflow: auto;
-    
-    
+    overflow:auto;
+    background-color: #FFF8F3;
+     
 }
 #btn-download{
     margin-right: 30px;
+}
+.section-title{
+    font-weight:bold;
+    font-size: 35px;
+    color:#181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.secondary-bg-color{
+    background-color:#FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    margin-top:130px;
+    text-align: center;
+    padding: 130px 150px;
+    
+
+
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-name{
+    font-size: 18px;
+}
+.item-description{
+    font-weight: bold;
 }

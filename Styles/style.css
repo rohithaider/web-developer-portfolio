@@ -179,12 +179,12 @@ main{
     margin-bottom: 100px;
 }
 
-.summary{
+/* .summary{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 .summary-button {
     margin-top: 50px;
     margin-bottom: 113px;

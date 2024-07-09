@@ -192,3 +192,39 @@ main{
 .summary-title{
     font-size: 35px;
 }
+
+.footer{
+    display:flex;
+    height: 780px;
+    gap: 30px;
+    justify-content:space-between;
+    
+}
+.info{
+    margin-top:130px;
+    margin-right: 117px;
+    margin-left: 230px;
+    margin-bottom: 472px;
+}
+.input-form{
+    margin-right:400px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    
+}
+.form-footer{
+    display:block;
+}
+.input-style{
+    width:100%;
+    height: 34px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    border: transparent;
+}
+.textarea{
+    height:180px;
+}

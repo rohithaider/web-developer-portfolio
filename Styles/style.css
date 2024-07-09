@@ -11,6 +11,9 @@
     color: #FD6E0A;
 
 }
+.text-center{
+    text-align: center;
+}
 
 
 .nav{
@@ -124,4 +127,28 @@ main{
 }
 .item-description{
     font-weight: bold;
+}
+
+/* Skills style */
+
+.skills{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.skills-container{
+    display:flex;
+    gap:28px;
+}
+
+.skills>.title{
+    font-size: 35px;;
+}
+.skills>.description{
+    font-size: 18px;
+    margin: 30px 116px 50px 116px;
+}
+.skill{
+    box-shadow:0px 5px 50px 0px rgba(0, 0, 0, 0.06);
+    padding:30px;
 }

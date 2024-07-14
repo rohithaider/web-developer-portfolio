@@ -228,3 +228,35 @@ main{
 .textarea{
     height:180px;
 }
+
+.hide{
+    display:none;
+}
+
+@media screen and (max-width:576px){
+    .skills-container, .summary-container, .footer{
+        flex-direction: column;
+    }
+    .skills>.description{
+        margin: 20px auto 20px auto;
+    }
+    .education{
+        margin-right: 0px;
+    }
+    .info{
+        margin: 20px auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .input-form{
+        margin-right: 0px;
+        margin-top: 0px;
+        
+    }
+    .input-style{
+        width: 70%;
+    }
+
+    
+}

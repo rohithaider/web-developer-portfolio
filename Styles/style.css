@@ -70,6 +70,7 @@ nav li a{
 }
 .banner-profile-pic{
     width: 540px;
+    
 }
 .banner-description{
     font-size: 18px;
@@ -280,7 +281,7 @@ main{
         margin-top: 20px;
     }
     .banner-profile-pic{
-        filter: drop-shadow(0 0 20px rgba(250, 123, 4, 0.3));
+        filter: drop-shadow(0 0 20px rgba(250, 123, 4, 0.336));
         
 
     }

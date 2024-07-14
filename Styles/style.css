@@ -234,7 +234,7 @@ main{
 }
 
 @media screen and (max-width:576px){
-    .skills-container, .summary-container, .footer{
+    .skills-container, .summary-container, .footer, .about-items,.banner,.nav,.nav>ul{
         flex-direction: column;
     }
     .skills>.description{
@@ -257,6 +257,30 @@ main{
     .input-style{
         width: 70%;
     }
+    .about{
+        padding: 130px 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin:0px 0px;
+        
+    }
+    .banner-name{
+        font-size: 60px;
+    }
+    .nav>ul{
+        gap:20px
+    }
+    .btn-primary{
+        margin-top: 20px;
+    }
+    
+    
 
     
 }

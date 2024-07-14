@@ -266,6 +266,7 @@ main{
     }
     .header{
         background-image: none;
+        width: 100%;
     }
     .banner{
         margin:0px 0px;
